@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this dataset using its Zenodo version DOI and the creators below. The DOI is assigned by the repository at deposition."
+type: dataset
+title: "Data and code for Public Radial-Velocity Selection Alters the Transverse-Speed Distribution of LAMOST-selected Metal-poor BHB Candidates"
+version: "1.0.0"
+authors:
+  - family-names: Chi
+    given-names: Huanbin
+    orcid: "https://orcid.org/0000-0001-7343-7332"
+  - family-names: Ma
+    given-names: Qianzhi
+repository-code: "https://github.com/chihuanbin/BHB"
+abstract: "Frozen scientific data, code, source-level RV audit, complete null distributions and reproducibility checkpoints supporting the revised 206-source BHB-candidate analysis."
+keywords:
+  - blue horizontal-branch stars
+  - radial velocity
+  - selection effects
+  - conditional randomization test

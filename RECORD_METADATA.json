@@ -1,0 +1,68 @@
+{
+  "title": "Data and code for Public Radial-Velocity Selection Alters the Transverse-Speed Distribution of LAMOST-selected Metal-poor BHB Candidates",
+  "resource_type": "Dataset",
+  "version": "1.0.0",
+  "language": "English",
+  "creators": [
+    {
+      "name": "Chi, Huanbin",
+      "orcid": "0000-0001-7343-7332",
+      "affiliations": [
+        "School of Artificial Intelligence, Yunnan Open University, Kunming 650599, China",
+        "Center for Astrophysics, Guangzhou University, Guangzhou, Guangdong 510006, China",
+        "Great Bay Center, National Astronomical Data Center, Guangzhou, Guangdong 510006, China"
+      ]
+    },
+    {
+      "name": "Ma, Qianzhi",
+      "affiliations": [
+        "School of Artificial Intelligence, Yunnan Open University, Kunming 650599, China"
+      ]
+    }
+  ],
+  "description": "This versioned scientific dataset and software archive supports the manuscript \"Public Radial-Velocity Selection Alters the Transverse-Speed Distribution of LAMOST-selected Metal-poor BHB Candidates\" by Huanbin Chi and Qianzhi Ma. It contains the frozen 206-source Gaia-linked parent, historical recorded RV-adoption labels (120/86), source- and product-level RV audit tables, archived public catalogue query responses, current numerical results, figure source data, analysis code, conditional draw banks, 5,000 source-bootstrap partitions and compact checkpoints for 600 null-simulation datasets.\n\nThe observed historical groups have median transverse speeds of 67.5 and 169.3 km/s. Conditional-association evidence depends on the fixed classifier partition: retaining the original five-fold partition after implementation repair yields spline/forest Monte Carlo p=0.0106/0.0088, whereas the source-ID reference partition yields p=0.6759/0.6429. Both complete 10,000-draw null distributions are provided; neither result is suppressed or selected as a replacement based on significance. Twenty fixed source-ID partitions are included. DR12 parameter-scoped and broader MRS-augmented label definitions are distinct analysis branches, not a certified release-only historical comparison. Weighting results describe internal reconstruction against the observed parent, not independent validation.\n\nHistorical completeness of the 86 recorded negative searches remains uncertified (UNKNOWN). Classification purity and an enlarged photometric-distance parent are not established. The DR12 responses were captured on 13 October 2026; this release authenticates those captures rather than claiming a fresh exhaustive survey search. Reused MSFA-Net parent data are separately cited at doi:10.5281/zenodo.20390763. This DOI belongs to the upstream dataset, not to this archive. This deposit contains scientific data and code, not reviewer correspondence or a journal version of record.",
+  "keywords": [
+    "blue horizontal-branch stars",
+    "radial velocity",
+    "selection effects",
+    "LAMOST DR12",
+    "Gaia DR3",
+    "conditional randomization test",
+    "inverse probability weighting",
+    "reproducibility"
+  ],
+  "license_scope": [
+    {
+      "id": "CC-BY-4.0",
+      "scope": "author-created data, figures and documentation"
+    },
+    {
+      "id": "MIT",
+      "scope": "author-created software"
+    },
+    {
+      "id": "LGPL-3.0-or-later",
+      "scope": "vendored Gaia zero-point implementation only; original terms retained"
+    },
+    {
+      "id": null,
+      "scope": "third-party catalogue values retain original survey/source terms; see THIRD_PARTY_NOTICES.txt"
+    }
+  ],
+  "related_works": [
+    {
+      "identifier": "10.5281/zenodo.20390763",
+      "relation": "Is derived from",
+      "resource_type": "Dataset"
+    },
+    {
+      "identifier": "https://github.com/chihuanbin/BHB",
+      "relation": "References",
+      "resource_type": "Software"
+    }
+  ],
+  "funding_text": "National Natural Science Foundation of China (12433012, 12373097); CAS Light of West China (xbzg-zdsys-202410).",
+  "doi": null,
+  "publication_date": null,
+  "metadata_format": "Human form reference, not an API request body; no DOI or publication date has been assigned."
+}

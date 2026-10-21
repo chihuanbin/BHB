@@ -1,0 +1,10 @@
+SCOPED LICENSE NOTICE
+Copyright 2026 Huanbin Chi and Qianzhi Ma for their original contributions.
+Author-created data, figures and documentation are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Author-created software is licensed under the MIT License (LICENSES/MIT.txt).
+These grants were approved by the author for this release. They apply only to rights
+held by the authors, not to underlying third-party catalogue facts/products or software.
+The vendored zero-point implementation retains its original LGPL terms and notices.
+Consult THIRD_PARTY_NOTICES.txt and metadata/RIGHTS_SCOPE.csv. No blanket relicensing
+of survey products or upstream MSFA-Net data is asserted by this notice.

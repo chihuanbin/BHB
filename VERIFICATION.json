@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "archive": "BHB_RV_reproducibility_v1.0.0.zip",
+  "archive_bytes": 86271994,
+  "archive_sha256": "431e79751b0d224d0eed261c31a112695e96be34fc375dbf47ea5491a9daf6d3",
+  "extracted_files": 1197,
+  "internal_manifest_exact": true,
+  "hash_verification": {
+    "status": "PASS",
+    "files_verified": 1196,
+    "network_used": false,
+    "model_fitting_run": false
+  },
+  "numerical_replay": {
+    "status": "PASS",
+    "checks_passed": 8662,
+    "bootstrap_source_partitions_checked": 5000,
+    "simulation_datasets": 600,
+    "simulation_method_results": 1800,
+    "mode": "saved_array_arithmetic_and_identity_checks",
+    "model_fitting_run": false,
+    "scientific_validity_certified": false
+  },
+  "source_and_numeric_files_identical_to_refit_test": 1169,
+  "refit_observed_branches_and_partitions": 6,
+  "refit_null_score_count": 56,
+  "max_null_score_difference": 9.93129189996722e-17,
+  "regenerated_main_figures": 3,
+  "regenerated_main_figures_pixel_identical_to_revised_manuscript": true,
+  "protected_original_files_unchanged": 501,
+  "unwanted_content_scan": "PASS",
+  "json_files_parsed": 69,
+  "python_sources_parsed": 8,
+  "citation_metadata": "YAML parsed and creator/version/type fields checked; not a claim of server validation",
+  "license_decision": "Author-approved CC-BY-4.0 data/docs; MIT own code; third-party terms retained",
+  "network_or_publication_performed": false,
+  "doi_assigned": false,
+  "full_budget_fitting_rerun_during_packaging": false,
+  "scientific_validity_certified": false
+}

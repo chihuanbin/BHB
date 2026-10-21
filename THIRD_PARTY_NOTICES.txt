@@ -1,0 +1,34 @@
+THIRD-PARTY RIGHTS AND ATTRIBUTION
+1. MSFA-Net. Wang, Mingyuan; Kong, Xiaoming; Ju, Jie; Bu, Yude; Liang, Yuchen.
+   The Data and Code for MSFA-Net: An Advanced Deep Learning Model for Identifying
+   Blue Horizontal-Branch Stars from LAMOST DR12. doi:10.5281/zenodo.20390763.
+   Data.zip is preserved as upstream/MSFA_Net_Data.zip. The archived DataCite record
+   identifies MIT, see metadata/upstream_MSFA_Net_datacite.json. No new copyright
+   ownership is claimed. Copyright and permissions remain with upstream contributors.
+2. Gaia. ESA/Gaia/DPAC data are open and free to use with credit; preserve the mission
+   and release citations in metadata/references.bib. Official terms/citation page:
+   https://gea.esac.esa.int/archive/documentation/GDR3/Miscellaneous/sec_credit_and_citation_instructions/
+3. LAMOST. Released catalogue data may be used with the LAMOST acknowledgement. Source:
+   https://dr.lamost.org/policies/data_policy.html . Guoshoujing Telescope/LAMOST is
+   built by CAS with NDRC funding and operated/managed by NAOC, CAS. This paraphrase
+   identifies the required credit; use the official acknowledgement text for papers.
+4. SDSS/APOGEE. Public-release catalogue data are in the public domain according to
+   https://www.sdss4.org/collaboration/ . Preserve release/pipeline references and use
+   the official SDSS acknowledgement when publishing work based on these products.
+5. GALAH DR3 and RAVE DR6. Only small archived public query subsets/empty responses and
+   derived screening information are retained. Original source terms and credits remain
+   applicable. See https://www.galah-survey.org/dr3/ and https://www.rave-survey.org/ .
+   This release does not assert an author-owned CC license over their original columns.
+6. gaiadr3-zeropoint distribution 0.1.0. Original implementation, coefficient tables,
+   embedded notices and LGPL license are preserved in workspace/bhb_revision_evidence_v2/
+   src/vendor/. This is an unmodified third-party component, not MIT author code. See
+   LICENSES/zero_point_LGPL_original.txt and metadata/zero_point_distribution_metadata.json.
+   An embedded legacy __version__ string is not the wheel's distribution version.
+7. External Python libraries are dependencies, not redistributed binaries. Their own
+   licenses apply when installed. Downloaded journal articles, website HTML forms,
+   reviewer correspondence and private metadata are not distributed in this archive.
+
+Record license badges must be read with these file-level scopes. Original catalogue
+values retain source rights even when mixed with author-derived columns in a CSV.
+Policy pages checked on 2026-10-19 where accessible; upstream MSFA-Net MIT identification
+is based on the previously captured DataCite record, not an asserted new API response.
